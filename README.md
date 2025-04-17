@@ -1,3 +1,10 @@
+registry.addMapping("/**")
+                .allowedOrigins("http://localhost:3000") // your frontend domain
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                .allowedHeaders("*")
+                .allowCredentials(true);
+
+
 # BIG-MART-SALES-PREDICTION-
 This is a ML model to predict the output sales.
 ## Group Member Details
